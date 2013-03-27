@@ -7,8 +7,8 @@ var fs = require('fs'),
     cluster = require('cluster'),
     util = require('util'),
     argv = require('optimist').argv,
-    master = require('../lib/master'),
-    worker = require('../lib/worker');
+    master = require('./lib/master'),
+    worker = require('./lib/worker');
 
 var help = [
     'usage: hipache [options]',
